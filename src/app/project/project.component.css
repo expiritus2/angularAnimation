@@ -1,0 +1,29 @@
+:host{
+  display: block;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -webkit-box-shadow: 3px 3px 2px #ccc;
+  -moz-box-shadow: 3px 3px 2px #ccc;
+  box-shadow: 3px 3px 2px #ccc;
+  margin: 20px 0;
+  /*padding: 20px;*/
+  /*-webkit-transition: border-color 0.5s ease-out;*/
+  /*-moz-transition: border-color 0.5s ease-out;*/
+  /*-ms-transition: border-color 0.5s ease-out;*/
+  /*-o-transition: border-color 0.5s ease-out;*/
+  /*transition: border-color 0.5s ease-out;*/
+}
+
+/*:host(.marked){*/
+  /*padding: 19px;*/
+/*}*/
+
+:host(.inactive){
+  color: #ccc;
+}
+
+.form-control{
+  display: inline-block;
+  width: 50%;
+}
